@@ -1,0 +1,9 @@
+#Log Files:
+logs/
+*.log
+
+#Build Files:
+build/
+
+#Other Files:
+apiKeys.js
