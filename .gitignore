@@ -1,3 +1,6 @@
+#Node Modules:
+node_modules/
+
 #Log Files:
 logs/
 *.log
@@ -5,5 +8,5 @@ logs/
 #Build Files:
 build/
 
-#Other Files:
+#API Keys:
 apiKeys.js
