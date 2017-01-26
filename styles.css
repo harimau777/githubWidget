@@ -1,0 +1,45 @@
+body {
+  background-color: gray;
+}
+
+a {
+  color: gray;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.app {
+  width: 50%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.profile p {
+  margin: 0;
+}
+
+.githubAvatar {
+  border-radius: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.rejectButton {
+  text-align: right;
+}
+
+.rejectButton i {
+  color: gray;
+}
+
+.githubButton {
+  font-weight: bold;
+}

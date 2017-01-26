@@ -1,20 +1,17 @@
 var webpack = require('webpack');
-var path = require('path');
-
-var BUILD_DIR = path.resolve(__dirname, '/build');
-var APP_DIR = path.resolve(__dirname);
 
 var config = {
-  entry: APP_DIR + '/index.js',
+  context: __dirname,
+  entry: './index.js',
   output: {
-    path: BUILD_DIR,
+    path: __dirname + '/build',
     filename: 'build.js'
-  }
+  },
   module: {
     loaders: [
       {
         test: /\.jsx?/,
-        include: APP_DIR,
+        include: __dirname,
         loader: 'babel'
       }
     ]
